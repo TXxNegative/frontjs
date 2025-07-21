@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bct.css">
+    <script src="bct.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>table </h1>
+    <table border="1"></table>
+    <table border="2" width="500" bordercolor="black">
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>roll no.</th>
+                <th>subject</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Abhijit Dutta</td>
+                <td>23CS2021001</td>
+                <td>Computer Science</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <center>
+        <div>
+        <center>
+            <form action="#">
+                name:<input type="text" name="name"><br><br>
+                email:<input type="email" name="email"><br><br>
+                gender:<input type="radio" name="gender" value="male">male
+                <input type="radio"  name="gender" value="female">female
+                <br><br>
+                skills:<input type="checkbox" name="skills" value="html">html
+                <input type="checkbox" name="skills" value="css">css            
+                <input type="checkbox" name="skills" value="js">js
+                <br><br>
+                <select name="city" id="c">
+                    <option value="kolkata">kolkata</option>
+                    <option value="delhi">delhi</option>
+                    <option value="mumbai">mumbai</option>
+                </select>
+                <br><br>
+                <textarea name="feedback" id="f" placeholder="please give your feedback here" rows="10"></textarea>
+                <br><br>
+                <hr><hr>
+            </form>
+        </center>
+        </div>
+        <br><br>
+        <center>
+                <input id="sub" type="submit" value="submit">
+        </center>
+    </center>
+</body>
+</html>

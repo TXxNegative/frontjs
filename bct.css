@@ -1,0 +1,12 @@
+div{
+    height: 400px;
+    width: 300px;
+    background-color: bisque;
+    border: black 2px solid;
+    padding-top: 10px;
+}
+#sub:hover{
+    background-color: bisque;
+    border-radius: 5px;
+    cursor: pointer;
+}

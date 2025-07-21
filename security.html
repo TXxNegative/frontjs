@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Password Hacker</title>
+  <link rel="stylesheet" href="security.css">
+</head>
+<body>
+  <div class="container">
+    <h1> Hack the System</h1>
+    <p>Enter the 3-digit code. Use clues to guess!</p>
+
+    <div class="code-box">
+      <input type="number" id="digit1" min="0" max="9" />
+      <input type="number" id="digit2" min="0" max="9" />
+      <input type="number" id="digit3" min="0" max="9" />
+    </div>
+
+    <button id="clueBtn">Generate Clue</button>
+    <button id="submitBtn"> Submit Code</button>
+
+    <p id="clueBox"></p>
+    <h2 id="result"></h2>
+  </div>
+
+  <script src="security.js"></script>
+</body>
+</html>
